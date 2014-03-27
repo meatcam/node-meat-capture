@@ -1,0 +1,24 @@
+{
+  "name": "meat-capture",
+  "version": "0.0.1",
+  "description": "Converts webcam input to an animated GIF",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meatcam/node-meat-capture.git"
+  },
+  "keywords": [
+    "meat",
+    "gif"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meatcam/node-meat-capture/issues"
+  },
+  "homepage": "https://github.com/meatcam/node-meat-capture",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
