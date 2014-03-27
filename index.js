@@ -61,3 +61,5 @@ var Capture = function(opts) {
     });
   };
 };
+
+module.exports = Capture;
