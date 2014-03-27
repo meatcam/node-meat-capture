@@ -46,13 +46,13 @@ var Capture = function(opts) {
   this.capture = function(callback) {
     exec([
       'avconv -y',
-      '-f', this.options.inputFormat,
-      '-ss', this.options.initialSkip,
-      '-s', this.options.size,
-      '-i', this.options.input,
-      '-r', this.options.fps,
-      '-t', this.options.seconds,
-      this.options.tempOutput
+      '-f', options.inputFormat,
+      '-ss', options.initialSkip,
+      '-s', options.size,
+      '-i', options.input,
+      '-r', options.fps,
+      '-t', options.seconds,
+      options.tempOutput
     ].join(' '), function(err) {
       if (err) {
         callback(err);
