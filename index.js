@@ -52,6 +52,7 @@ var Capture = function(opts) {
       '-i', options.input,
       '-r', options.fps,
       '-t', options.seconds,
+      '-pix_fmt rgb24 -vf format=rgb8,format=rgb24',
       options.tempOutput
     ].join(' '), function(err) {
       if (err) {
