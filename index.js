@@ -18,7 +18,7 @@ var defaults = {
 var Capture = function(opts) {
   var options = _.extend({}, defaults, opts);
 
-  function base64() {
+  function base64(callback) {
     fs.readFile(options.tempMinified, {
       encoding: 'base64'
     }, function(err, data) {
