@@ -10,7 +10,7 @@ var defaults = {
   input: '/dev/video0',
   fps: '5',
   seconds: '2',
-  gifFrameDelay: '100',
+  gifFrameDelay: '10',
   tempOutput: 'tmp/out.gif',
   tempMinified: 'tmp/min.gif'
 };
